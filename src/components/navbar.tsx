@@ -1,8 +1,5 @@
 import Link from 'next/link';
 
-import Login from './Login';
-import { Modal } from './Modal';
-
 export default function Navbar() {
   return (
     <>
@@ -37,9 +34,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <Modal isVisible={false}>
-        <Login />
-      </Modal>
     </>
   );
 }

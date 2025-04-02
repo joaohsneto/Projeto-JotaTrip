@@ -1,4 +1,4 @@
-export default function Login() {
+export default function LoginComponent() {
   return (
     <div>
       <h2>Login</h2>
